@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+"
+ codebase="http://dev2.commonline.co.uk" 
+
+	href="TonemapLauncher.jnlp">
+	<information>
+  		<title>Tonemap</title>
+  		<vendor>Commonline</vendor>
+  		<homepage href="http://www.google.co.uk" />
+  		<description>Tonemap</description>
+  		<description>Tonemap</description>
+	</information>
+
+	<security>
+		<all-permissions />
+	</security>
+
+	<resources>
+		<j2se version="1.4+" />
+		<jar href="tonemap.jar" />
+	</resources>
+
+	<application-desc main-class="comul01.tonemap.ToneMapMain" /> 
+
+</jnlp>
+
